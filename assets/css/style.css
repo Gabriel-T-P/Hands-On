@@ -16,3 +16,16 @@
   vertical-align: baseline;
   text-decoration: none;
 }
+
+.container {
+  margin: 30px auto;
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
