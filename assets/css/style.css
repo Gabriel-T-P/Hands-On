@@ -2,31 +2,13 @@
 @import './header.css';
 @import './buttons.css';
 @import './main.css';
+@import './footer.css';
+@import './responsive-background.css';
+@import './bootstrap.css';
+@import './responsive-elements.css';
+
+
+
 
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
-
-/*Reset CSS*/
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  vertical-align: baseline;
-  text-decoration: none;
-}
-
-.container {
-  margin: 30px auto;
-  width: 1024px;
-  display: flex;
-  flex-direction: column;
-
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
